@@ -1,5 +1,7 @@
 char=input("Enter the character:").lower()
-if ord(char)==ord('a') or ord(char)==ord('e') or ord(char)==ord('i') or ord(char)==ord('o') or ord(char)==ord('u'):
+if char in 'aeiou':
     print("Vowels")
-else:
+elif char in 'bcdfghjklmnpqrstvwxyz':
     print("Consonants")
+else:
+    print("Invalid")
