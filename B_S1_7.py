@@ -1,2 +1,3 @@
 n=int(input("Enter the number of times you want to print:"))
-print("Hello"*n)
+for i in range(n):
+    print("Hello")
