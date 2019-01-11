@@ -10,7 +10,6 @@ class B_S10_1
 		int height=sc.nextInt();
 		int TSA= 2*length*breadth + 2*breadth*height + 2*height*length;
 		int volume=length*breadth*height;
-		System.out.println(TSA);
-		System.out.println(volume);
+		System.out.println(TSA+" "+volume);
 	}
 }
